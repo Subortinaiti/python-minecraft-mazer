@@ -142,10 +142,10 @@ def generate_schematic(maze, corridor_size, wall_height,floor_block="minecraft:s
 
 
 
-X = input("insert the x size of the maze > ")
-Z = input("insert the z size of the maze > ")
-Y = input("insert the wall height of the maze > ")
-W = input("insert the width of the corridoors > ")
+X = int(input("insert the x size of the maze > "))
+Z = int(input("insert the z size of the maze > "))
+Y = int(input("insert the wall height of the maze > "))
+W = int(input("insert the width of the corridoors > "))
 B1 = input("insert the block for the floor (ex minecraft:stone) > ")
 B2 = input("insert the block for the walls (ex minecraft:stone) > ")
 B3 = input("insert the block for the roof (ex minecraft:stone) > ")
